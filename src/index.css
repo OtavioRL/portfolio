@@ -5,3 +5,7 @@
 html {
   font-family: 'Space Grotesk', sans-serif;
 }
+
+.rounded-full {
+  border-radius: 50%;
+}

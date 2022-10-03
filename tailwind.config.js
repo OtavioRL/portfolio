@@ -15,6 +15,10 @@ module.exports = {
         'pmd': ['1rem', '1.25rem'],
         'psm': ['0.833rem', '1rem'],
       },
+      colors: {
+        'verde': '#5BE9B9',
+        'roxo': '#7510F7'
+      },
     },
   },
   plugins: [],
