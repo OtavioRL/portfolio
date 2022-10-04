@@ -1,7 +1,7 @@
 # Repositório do meu portfólio
 Você pode encontrar o resultado final em:
 
-## Frameworks / bibliotecas utilizados no projeto
+## Frameworks / bibliotecas utilizadas no projeto
 * React
 * Tailwind css
 
