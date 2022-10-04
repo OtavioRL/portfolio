@@ -1,5 +1,5 @@
 # Repositório do meu portfólio
-Você pode encontrar o resultado final em:
+Você pode encontrar o resultado final em: _deploy em breve_
 
 ## Frameworks / bibliotecas utilizadas no projeto
 * React
