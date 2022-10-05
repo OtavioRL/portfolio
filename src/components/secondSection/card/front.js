@@ -5,7 +5,7 @@ const Front = () => {
     <div className='flex flex-col items-center mt-10'>
         <TerminalSVG className='bg-verde w-2/5 p-8% rounded-full overflow-visible'/>
         <h1 className='text-h6 text-center font-bold mt-5'>Desenvolvedor Frontend</h1>
-        <p className='text-plg text-center mt-5 leading-6'>Eu gosto de desenvolver sites do zero, e adoro tirar ideias do papel e colocá-las internet.</p>
+        <p className='text-plg text-center mt-5 leading-6'>Eu gosto de desenvolver sites do zero, e adoro tirar ideias do papel e colocá-las na internet.</p>
         <h2 className='text-plg text-center font-bold text-roxo mt-10'>Linguagens que eu utilizo:</h2>
         <p className='text-plg text-center mt-3'>HTML, CSS, JavaScript, Typescript, Git</p>
         <h2 className='text-plg text-center font-bold text-roxo mt-10'>Ferramentas que eu utilizo:</h2>
