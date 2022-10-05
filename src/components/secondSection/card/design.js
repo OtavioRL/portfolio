@@ -3,7 +3,7 @@ import { ReactComponent as DesignSVG } from './design.svg';
 const Design = () => {
   return (
     <div className='flex flex-col items-center'>
-        <DesignSVG className='bg-verde w-2/5 px-5 py-5 rounded-full overflow-visible'/>
+        <DesignSVG className='bg-verde w-2/5 p-8% rounded-full overflow-visible'/>
         <h1 className='text-h6 text-center font-bold mt-5'>Designer</h1>
         <p className='text-plg text-center mt-5 leading-6'>Eu valorizo uma estética simples, <i>clean</i> e minimalista.</p>
         <h2 className='text-plg text-center font-bold text-roxo mt-10'>O que eu gosto de desenvolver:</h2>

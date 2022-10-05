@@ -19,6 +19,9 @@ module.exports = {
         'verde': '#5BE9B9',
         'roxo': '#7510F7'
       },
+      spacing: {
+        '8%': '8%'
+      },
     },
   },
   plugins: [],
