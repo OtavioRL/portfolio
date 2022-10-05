@@ -4,6 +4,7 @@
 
 html {
   font-family: 'Space Grotesk', sans-serif;
+  -webkit-tap-highlight-color: white;
 }
 
 .rounded-full {
