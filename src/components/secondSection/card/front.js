@@ -1,9 +1,8 @@
-import { ReactComponent as DesignSVG } from './design.svg';
 import { ReactComponent as TerminalSVG } from './terminal.svg';
 
-const Card = () => {
+const Front = () => {
   return (
-    <div className="p-10 w-5/6 bg-slate-50 relative bottom-24 rounded-xl flex flex-col items-center border-solid border-grey-100 border">
+    <div className='flex flex-col items-center mt-10'>
         <TerminalSVG className='bg-verde w-2/5 py-4 px-5 rounded-full overflow-visible'/>
         <h1 className='text-h6 text-center font-bold mt-5'>Desenvolvedor Frontend</h1>
         <p className='text-plg text-center mt-5 leading-6'>Eu gosto de desenvolver sites do zero, e adoro tirar ideias do papel e colocá-las internet.</p>
@@ -21,4 +20,4 @@ const Card = () => {
   );
 };
 
-export default Card;
+export default Front;
