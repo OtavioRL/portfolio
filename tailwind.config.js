@@ -20,8 +20,20 @@ module.exports = {
         'roxo': '#7510F7'
       },
       spacing: {
-        '8%': '8%'
+        '8%': '8%',
+        '6%': '6%',
+        '4%': '4%',
       },
+      maxWidth: {
+        'mobileImage': '280px',
+      },
+    },
+    screens: {
+      'sm': '600px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
     },
   },
   plugins: [],
