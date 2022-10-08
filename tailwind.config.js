@@ -28,7 +28,7 @@ module.exports = {
         '20%': '20%',
       },
       maxWidth: {
-        'mobileImage': '280px',
+        'mobileImage': '250px',
       },
     },
     screens: {

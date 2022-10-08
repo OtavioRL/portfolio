@@ -4,10 +4,10 @@ import SectionText from "./sectionText";
 
 const FirstSection = () => {
   return (
-    <section className="flex flex-col items-center">
+    <section className="flex flex-col items-center justify-between h-full">
       <SectionText/>
       <Avatar/>
-      <Illustration className="w-5/6 max-w-3xl h-max mt-10" />      
+      <Illustration className="w-5/6 max-w-xl h-fit mt-10" />      
     </section>
   );
 };
