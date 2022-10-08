@@ -10,6 +10,7 @@ module.exports = {
         'h4': ['2.488rem', '3rem'],
         'h5': ['2.074rem', '2.5rem'],
         'h6': ['1.728rem', '2rem'],
+        'p2xl': '1.728rem',
         'pxl': '1.44rem',
         'plg': '1.2rem',
         'pmd': '1rem',
@@ -23,6 +24,8 @@ module.exports = {
         '8%': '8%',
         '6%': '6%',
         '4%': '4%',
+        '30%': '30%',
+        '20%': '20%',
       },
       maxWidth: {
         'mobileImage': '280px',

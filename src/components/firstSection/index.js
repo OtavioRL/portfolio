@@ -7,7 +7,7 @@ const FirstSection = () => {
     <section className="flex flex-col items-center">
       <SectionText/>
       <Avatar/>
-      <Illustration className="w-5/6 max-w-lg h-max mt-10" />      
+      <Illustration className="w-5/6 max-w-3xl h-max mt-10" />      
     </section>
   );
 };

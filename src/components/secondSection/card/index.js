@@ -2,9 +2,9 @@ import Design from './design';
 import Front from './front';
 import Back from './back';
 
-const Card = () => {
+const Cards = () => {
   return (
-    <div className="p-10 w-5/6 bg-slate-50 relative bottom-24 rounded-xl flex flex-col items-center border-solid border-grey-100 border">
+    <div className="p-10 lg:p-0 w-5/6 bg-slate-50 relative bottom-24 rounded-xl flex flex-col lg:flex-row items-center lg:items-start lg:justify-around lg:h-screen border-solid border-grey-100 border">
       <Design/>
       <Front/> 
       <Back/> 
@@ -12,4 +12,4 @@ const Card = () => {
   );
 };
 
-export default Card;
+export default Cards;

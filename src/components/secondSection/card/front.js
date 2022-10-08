@@ -1,21 +1,29 @@
-import { ReactComponent as TerminalSVG } from './terminal.svg';
+import Item from './cardComponents/item';
+import { ReactComponent as TerminalSVG } from './svgs/terminal.svg';
+import Title from './cardComponents/title';
+import SubTitle from './cardComponents/subtitle';
+import P from './cardComponents/paragraph';
+import Description from './cardComponents/description';
+import SVG from './cardComponents/svg';
 
 const Front = () => {
   return (
-    <div className='flex flex-col items-center mt-10'>
-        <TerminalSVG className='bg-verde w-2/5 sm:w-2/6 md:w-1/4 p-8% md:p-6% rounded-full overflow-visible'/>
-        <h1 className='text-h6 sm:text-h4 text-center font-bold mt-5'>Desenvolvedor Frontend</h1>
-        <p className='text-plg sm:text-pxl text-center mt-5 leading-6'>Eu gosto de desenvolver sites do zero, e adoro tirar ideias do papel e colocá-las na internet.</p>
-        <h2 className='text-plg sm:text-pxl text-center font-bold text-roxo mt-10'>Linguagens que eu utilizo:</h2>
-        <p className='text-plg sm:text-pxl text-center mt-3'>HTML, CSS, JavaScript, Typescript, Git</p>
-        <h2 className='text-plg sm:text-pxl text-center font-bold text-roxo mt-10'>Ferramentas que eu utilizo:</h2>
-        <p className='text-plg sm:text-pxl text-center mt-3'>React</p>
-        <p className='text-plg sm:text-pxl text-center'>Github</p>
-        <p className='text-plg sm:text-pxl text-center'>Tailwind css</p>
-        <p className='text-plg sm:text-pxl text-center'>Bootstrap</p>
-        <p className='text-plg sm:text-pxl text-center'>MiUI</p>
-        <p className='text-plg sm:text-pxl text-center'>Redux</p>
-        <p className='text-plg sm:text-pxl text-center'>Next.js</p>
+    <div className='flex flex-col items-center mt-10 lg:mt-4 lg:w-1/3 lg:h-screen'>
+      <SVG Svg={TerminalSVG} />
+      <div className='flex flex-col lg:w-2/3 xl:w-2/3 lg:h-full justify-start'>
+        <Title title="Desenvolvedor Frontend" />
+        <Description texto="Eu gosto de desenvolver sites do zero, e adoro tirar ideias do papel e colocá-las na internet." />
+        <SubTitle subtitle="Linguagens que eu utilizo:" />
+        <P texto="HTML, CSS, JavaScript, Typescript, Git" />
+        <SubTitle subtitle="Ferramentas que eu utilizo:" />
+        <Item texto='React' isFirst={true} />
+        <Item texto='Gitub' />
+        <Item texto='Tailwind css' />
+        <Item texto='Bootstrap' />
+        <Item texto='MiUI' />
+        <Item texto='Redux' />
+        <Item texto='Next.js' />
+      </div>
     </div>
   );
 };
