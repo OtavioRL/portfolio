@@ -4,6 +4,7 @@ import Title from './cardComponents/title';
 import SubTitle from './cardComponents/subtitle';
 import Description from './cardComponents/description';
 import SVG from './cardComponents/svg';
+import P from './cardComponents/paragraph';
 
 const Back = () => {
   return (
@@ -11,7 +12,9 @@ const Back = () => {
       <SVG Svg={BackSVG} />
       <div className='flex flex-col lg:w-2/3 xl:w-2/3 lg:h-full justify-start'>
         <Title title='Desenvolvedor Backend' />
-        <Description texto="Ainda estou estudando backend mas já consigo desenvolver uma aplicação fullstack com API e banco de dados integrado." />
+        <Description texto="Ainda estou estudando backend mas já consigo desenvolver uma aplicação fullstack." />
+        <SubTitle subtitle="Linguagens que eu utilizo:" />
+        <P texto="Javascript, Python, SQL" />
         <SubTitle subtitle="O que eu aprendi até agora:" />
         <Item texto='Docker' isFirst={true} />
         <Item texto='SQL & mySQL'/>

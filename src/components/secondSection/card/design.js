@@ -12,7 +12,7 @@ const Design = () => {
         <SVG Svg={DesignSVG} />
         <div className='flex flex-col lg:w-2/3 xl:w-2/3 lg:h-full justify-start'>
           <Title title='Designer' />
-          <Description texto='Eu valorizo uma estética simples, clean e minimalista.' />
+          <Description texto='Eu valorizo uma estética simples, clean e minimalista. Fazer o design é minha parte favorita do processo.' />
           <SubTitle subtitle='O que eu gosto de desenvolver:' />
           <P texto="UX, UI, Sites, Apps" />
           <SubTitle subtitle='Ferramentas que eu utilizo:' />

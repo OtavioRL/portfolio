@@ -14,7 +14,7 @@ const Front = () => {
         <Title title="Desenvolvedor Frontend" />
         <Description texto="Eu gosto de desenvolver sites do zero, e adoro tirar ideias do papel e colocá-las na internet." />
         <SubTitle subtitle="Linguagens que eu utilizo:" />
-        <P texto="HTML, CSS, JavaScript, Typescript, Git" />
+        <P texto="HTML, CSS, JavaScript, Typescript" />
         <SubTitle subtitle="Ferramentas que eu utilizo:" />
         <Item texto='React' isFirst={true} />
         <Item texto='Gitub' />
